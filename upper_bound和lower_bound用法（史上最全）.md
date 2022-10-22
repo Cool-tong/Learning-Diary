@@ -8,13 +8,13 @@
 upper_bound(begin, end, value)
 ```
 
-在**从小到大**的排好序的数组中，在数组的**[begin, end)**区间中二分查找第一个**大于**value的数，找到返回该数字的地址，没找到则返回end。
+在**从小到大**的排好序的数组中，在数组的 **[begin, end)** 区间中二分查找第一个**大于**value的数，找到返回该数字的地址，没找到则返回end。
 
 ```
 lower_bound(begin, end, value)
 ```
 
-在**从小到大**的排好序的数组中，在数组的**[begin, end)**区间中二分查找第一个**大于等于**value的数，找到返回该数字的地址，没找到则返回end。
+在**从小到大**的排好序的数组中，在数组的 **[begin, end)** 区间中二分查找第一个**大于等于**value的数，找到返回该数字的地址，没找到则返回end。
 
 ### 用greater&lt;type&gt;()重载
 
@@ -22,13 +22,13 @@ lower_bound(begin, end, value)
 upper_bound(begin, end, value, greater<int>())
 ```
 
-在**从大到小**的排好序的数组中，在数组的**[begin, end)**区间中二分查找第一个**小于**value的数，找到返回该数字的地址，没找到则返回end。
+在**从大到小**的排好序的数组中，在数组的 **[begin, end)** 区间中二分查找第一个**小于**value的数，找到返回该数字的地址，没找到则返回end。
 
 ```
 lower_bound(begin, end, value, greater<int>())
 ```
 
-在**从大到小**的排好序的数组中，在数组的**[begin, end)**区间中二分查找第一个**小于等于**value的数，找到返回该数字的地址，没找到则返回end。
+在**从大到小**的排好序的数组中，在数组的 **[begin, end)** 区间中二分查找第一个**小于等于**value的数，找到返回该数字的地址，没找到则返回end。
 
 前两部分的代码：
 
